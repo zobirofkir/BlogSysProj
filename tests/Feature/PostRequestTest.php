@@ -24,5 +24,4 @@ class PostRequestTest extends TestCase
         $response->assertStatus(200);
         $this->assertCount(4, $response->json('data'));
     }
-
 }
